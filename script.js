@@ -203,3 +203,4 @@ for (let i = 0; i < choosedEl.length; i++) {
 choosedEl[2].removeEventListener("click", eventFunc)
 
 // change
+// change 2
