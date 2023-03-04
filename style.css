@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker';
+}
+
+header {
+    background-color: rgb(217, 211, 223);
+    height: 50px;
+}
+
+footer{
+    background-color: rgb(223, 204, 240);
+    height: 10;
+    font: bold;
+    text-align: end;
+    padding: 0 30px;
+}
+
+img {
+    width: 333px;
+    margin: 3px 33px 33px 222px;
+}
+
+span{
+    font-style: italic;
+}
+
+.name{
+    color:blue;
+}
+
+#skill{
+    color:blueviolet;
+    font-style: inherit;
+    font-size: large;
+}
+
+h1{
+    border: 20px solid violet;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    /* border: 5px dotted black; */
+    /* width: min-content; */
+    height: inherit;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+nav > a { /* взять все а у nav */
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+
+}
+
+.about_us {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content:left;
+}
+
+.about_us img {
+    width: 300px;
+    /* margin-left: 30px;
+    margin-bottom: 100px; */
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.about_us_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_description * {
+    padding: 5px;
+}
+
+.my_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.my_game > * {
+    text-align: center
+;}
+
+.my_game input, .my_game button {
+    border: none;
+    /* background-color: rgb(183, 220, 243); */
+    margin: 5px;
+    min-height: 30px;
+}
+
+.my_game button {
+    width: max-content;
+    background-color: aqua;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.my_game input {
+    background-color: beige;
+    outline: none;
+}
+
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: fit-content;
+}
+
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+.choosed_element {
+    border: 3px solid black;
+}
