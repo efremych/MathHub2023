@@ -9,7 +9,10 @@
 
 header {
     background-color: rgb(217, 211, 223);
-    height: 50px;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 footer{
@@ -65,6 +68,10 @@ nav > a { /* взять все а у nav */
     padding: 0 30px;
     font-size: 20px;
 
+}
+
+nav > a:hover {
+    color: darksalmon;
 }
 
 .about_us {
@@ -148,4 +155,20 @@ nav > a { /* взять все а у nav */
 
 .choosed_element {
     border: 3px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block h2 {
+    text-align: center;
+}
+
+.posts_block-container > * {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
 }
